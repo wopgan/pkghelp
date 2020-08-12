@@ -119,7 +119,7 @@ installpkg() {
 						pamac build "$pkg" --no-confirm
 						menu
 					else
-						echo 'Vócê deve usar "a" para AUR ou "n" para Normal!\n'
+						echo -e 'Vócê deve usar "a" para AUR ou "n" para Normal!\n'
 					fi	
 				menu
 				break
